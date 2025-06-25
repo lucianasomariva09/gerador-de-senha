@@ -90,6 +90,26 @@ body{
         flex-direction: row;
     }
 }
-.botao{
-    
+.botao {
+
+    background-color: var(--fundo-texto);
+    color: var(--branco);
+    border: 2px solid var(--borda);
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.botao-texto{
+    background-color: var(--fundo-texto);
+    color: var(--branco);
+    padding: 10px;
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    margin: 0;
+    font-size: 20px;
+
+}
+.botoes {
+    display: flex;
+    margin: 50px;
 }
